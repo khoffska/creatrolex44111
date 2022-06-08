@@ -9,4 +9,6 @@ aws iam attach-role-policy --policy-arn arn:aws:iam::aws:policy/ReadOnlyAccess -
 aws iam attach-role-policy --policy-arn arn:aws:iam::aws:policy/AmazonEventBridgeFullAccess --role-name Cloudnexa-Env0
 aws iam get-role --role-name Cloudnexa-Env0
 rolearn=$(aws iam get-role --role-name Cloudnexa-Env0 | grep Arn)
-echo "ExternalID is $externalid Sns topic is $snstopic RoleARN is $rolearn "
+echo "ExternalID is $externalid
+echo "Sns topic is $snstopic"
+echo "RoleARN is $rolearn "
