@@ -9,7 +9,7 @@
             },
             "Condition": {
                 "StringEquals": {
-                    "sts:ExternalId": "$(externalid)"
+                    "sts:ExternalId": "externalid"
                 }
             }
         }
